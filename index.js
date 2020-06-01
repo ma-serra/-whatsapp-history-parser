@@ -169,19 +169,16 @@ function startApp(name) {
       ["Total number of messages sent : ", nomMessages.length],
       ['Total number of times the user sent "lol"  : ', total_lol.length],
       ['Total number of times the user sent "lmao": ', total_lmao.length],
-      ["Total number of times the user sent emojis : ", nomMessages.length],
+      ["Total number of times the user sent emojis : ", emoji.length],
       [
         'Total number of profanities the user sent. The only profanities to check for are   "fuck", "merde", "putain", "ass". : ',
-        total_profanities.length,
+        total_profanities.length
       ],
       ["Total number of times the user recieved emojis. : ", emojiRecue.length],
-      [
-        "Total number of times the user recieved the angry 😡 emoji. : ",
-        total_angry.length,
-      ],
+      ["Total number of times the user recieved the angry 😡 emoji : ", total_angry.length],
       [
         'Total number of times the user sent and recieved the words "amen", "akpe", "merci", "nagode", "imela", "thanks", "thank you", "alhamdulillah", "shukran" : ',
-        total_good.length,
+        total_good.length
       ],
     ];
     console.table(infos);
